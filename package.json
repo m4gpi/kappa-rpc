@@ -1,0 +1,11 @@
+{
+  "name": "kappa-rpc",
+  "version": "0.0.1",
+  "description": "an rpc implementation over multifeed",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape '**/*.test.js' | tap-spec"
+  },
+  "author": "kyphae",
+  "license": "AGPL-3.0-or-later"
+}
