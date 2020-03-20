@@ -1,10 +1,25 @@
 {
   "name": "kappa-rpc",
   "version": "0.0.1",
-  "description": "an rpc implementation over multifeed",
+  "description": "an rpc implementation over the hypercore-protocol",
   "main": "index.js",
   "scripts": {
     "test": "tape '**/*.test.js' | tap-spec"
+  },
+  "dependencies": {
+    "assert": "^2.0.0",
+    "kappa-core": "github:Frando/kappa-core#15777919bf820c7eaac6b76d1947cce93f922dac",
+    "kappa-view-query": "git+https://ledger-git.dyne.org/cobox/kappa-view-query.git#kappa-next"
+  },
+  "devDependencies": {
+    "nyc": "^14.1.1",
+    "random-access-memory": "^3.1.1",
+    "random-words": "^1.1.0",
+    "rimraf": "^3.0.0",
+    "sinon": "^8.0.4",
+    "tape": "^4.11.0",
+    "tape-plus": "^1.0.0",
+    "tmp": "^0.1.0"
   },
   "author": "kyphae",
   "license": "AGPL-3.0-or-later"
